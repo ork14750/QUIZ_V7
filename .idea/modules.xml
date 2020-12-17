@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/API_QUESTIONS/API_QUESTIONS.iml" filepath="$PROJECT_DIR$/API_QUESTIONS/API_QUESTIONS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API_RANKINGS/API_RANJINGS.iml" filepath="$PROJECT_DIR$/API_RANKINGS/API_RANJINGS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz_v7/WebApp &amp; API_ACCOUNT.iml" filepath="$PROJECT_DIR$/quiz_v7/WebApp &amp; API_ACCOUNT.iml" />
+    </modules>
+  </component>
+</project>
