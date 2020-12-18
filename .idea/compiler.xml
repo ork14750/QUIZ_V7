@@ -8,12 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="API_RANJINGS" />
         <module name="API_QUESTIONS" />
-        <module name="WebApp &amp; API_ACCOUNT" />
+        <module name="login-registration-springboot-hibernate-jsp-auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="API_QUESTIONS" target="15" />
       <module name="API_RANJINGS" target="15" />
+      <module name="login-registration-springboot-hibernate-jsp-auth" target="15" />
       <module name="WebApp &amp; API_ACCOUNT" target="15" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +23,7 @@
       <module name="API_QUESTIONS" options="-parameters" />
       <module name="API_RANJINGS" options="-parameters" />
       <module name="WebApp &amp; API_ACCOUNT" options="-parameters" />
+      <module name="login-registration-springboot-hibernate-jsp-auth" options="-parameters" />
     </option>
   </component>
 </project>

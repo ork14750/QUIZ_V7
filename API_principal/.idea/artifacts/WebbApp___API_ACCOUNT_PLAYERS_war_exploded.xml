@@ -1,17 +1,17 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="login-registration-springboot-hibernate-jsp-auth:war exploded">
-    <output-path>$PROJECT_DIR$/API_principal/target/login-registration-springboot-hibernate-jsp-auth-0.0.1-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="WebbApp &amp; API_ACCOUNT_PLAYERS:war exploded">
+    <output-path>$PROJECT_DIR$/target/login-registration-springboot-hibernate-jsp-auth-0.0.1-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>login-registration-springboot-hibernate-jsp-auth</module>
+        <module>WebbApp &amp; API_ACCOUNT_PLAYERS</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="login-registration-springboot-hibernate-jsp-auth" />
+          <element id="module-output" name="WebbApp &amp; API_ACCOUNT_PLAYERS" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.3.0.RELEASE" />
@@ -89,9 +89,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/API_principal/target/login-registration-springboot-hibernate-jsp-auth-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$USER_HOME$/Desktop/QUIZ_V6/login-registration-springboot-hibernate-jsp-auth/target/login-registration-springboot-hibernate-jsp-auth-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="login-registration-springboot-hibernate-jsp-auth/web/Web" />
+      <element id="javaee-facet-resources" facet="WebbApp &amp; API_ACCOUNT_PLAYERS/web/Web" />
     </root>
   </artifact>
 </component>
