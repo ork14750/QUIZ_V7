@@ -34,7 +34,7 @@ public class PlayerServiceImpl implements PlayerService {
 	public void loadDataUsers(){
 
 		String DataUsers;
-		this.filePath = new File("quiz_v7/src/main/resources/data/userData").getAbsolutePath();
+		this.filePath = new File("data/userData").getAbsolutePath();
 		try
 		{
 

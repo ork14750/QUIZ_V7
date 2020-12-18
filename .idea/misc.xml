@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$USER_HOME$/.m2/API_ACCOUNT_WEB_APP" />
+    <file type="web" url="file://$PROJECT_DIR$/../Nouveau dossier/login-registration-springboot-hibernate-jsp-auth" />
     <file type="web" url="file://$PROJECT_DIR$/API_principal" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,7 +11,8 @@
         <option value="$PROJECT_DIR$/../QUIZ_V6/API_QUESTIONS/pom.xml" />
         <option value="$PROJECT_DIR$/../QUIZ_V6/API_RANKINGS/pom.xml" />
         <option value="$PROJECT_DIR$/../QUIZ_V6/quiz_v6/pom.xml" />
-        <option value="$PROJECT_DIR$/API_principal/pom.xml" />
+        <option value="$USER_HOME$/.m2/login-registration-springboot-hibernate-jsp-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/../Nouveau dossier/login-registration-springboot-hibernate-jsp-auth/pom.xml" />
       </list>
     </option>
   </component>
