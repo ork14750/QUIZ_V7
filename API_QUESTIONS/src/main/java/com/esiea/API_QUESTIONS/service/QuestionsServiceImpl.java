@@ -32,7 +32,7 @@ public class QuestionsServiceImpl implements QuestionsService {
 	public void loadDataQuestions(){
 
 		String DataUsers;
-		this.filePath = new File("quiz_v7/src/main/resources/data/questions").getAbsolutePath();
+		this.filePath = new File("API_principal/src/main/resources/data/questions").getAbsolutePath();
 		try
 		{
 
@@ -75,13 +75,15 @@ public class QuestionsServiceImpl implements QuestionsService {
 		List listAllQuestions = new ArrayList(IteratorUtils.toList(questionsRepository.findAll().iterator()));
 		List randomQuestions = new ArrayList();
 
-		/*Random rand = new Random(); //instance of random class
+		Random rand = new Random(); //instance of random class
 		int upperbound = listAllQuestions.size();
 		//generate random values from 0-24
-		int int_random = rand.nextInt(upperbound);
-		for(int it=0;it<4;it++){
 
-		}*/
+		for(int it=0;it<4;it++){
+			int int_random = rand.nextInt(upperbound);
+			randomQuestions.add(listAllQuestions.get(int_random));
+
+		}
 		return randomQuestions;
 	}
 

@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.Collection;
+import java.util.List;
 
 
 @Controller
@@ -20,5 +21,11 @@ public class ApiController {
     public ResponseEntity<Collection<Questions>> getAllQuestions() {
         Collection<Questions> questions = questionsService.getAllQuestions();
         return new ResponseEntity<Collection<Questions>>(questions, HttpStatus.FOUND);
+    }
+
+    @GetMapping(value = "/questions/random")
+    public ResponseEntity<List> getRandomQuestions() {
+        List questions = questionsService.getRandomQuestions();
+        return new ResponseEntity<List>(questions, HttpStatus.FOUND);
     }
 }

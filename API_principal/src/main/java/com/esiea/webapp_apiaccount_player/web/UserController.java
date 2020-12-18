@@ -12,6 +12,7 @@ import com.esiea.webapp_apiaccount_player.model.User;
 import com.esiea.webapp_apiaccount_player.service.UserService;
 import com.esiea.webapp_apiaccount_player.validator.UserValidator;
 
+
 @Controller
 public class  UserController {
     @Autowired
